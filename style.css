@@ -50,6 +50,16 @@ nav a {
   padding: 8rem 10%;
   text-align: left;
   border-bottom-left-radius: 70px;
+  
+}
+
+.style-image {
+  width: 150px;       /* Set equal dimensions */
+  height: 150px;
+  object-fit: contain;  /* Prevents distortion */
+  
+  /* Makes it a perfect circle */
+  border-radius: 50%; 
 }
 
 #h1 {
